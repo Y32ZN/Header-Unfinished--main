@@ -15,7 +15,7 @@ const Header = () => {
     '제작사/레이블',
     '음반명/상품명'
   ];
-
+//주석을 추가해요
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
