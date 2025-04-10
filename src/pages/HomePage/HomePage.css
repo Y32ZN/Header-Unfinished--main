@@ -1,0 +1,35 @@
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 60px); /* 헤더 높이를 뺀 전체 높이 */
+}
+
+.home-page {
+  flex: 1;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.feed-container {
+  flex: 2;
+}
+
+.sidebar-container {
+  flex: 1;
+}
+
+/* RealTimeChart 컴포넌트가 푸터 바로 위에 위치하도록 설정 */
+.home-page-container > :last-child {
+  margin-bottom: 40px; /* 푸터와의 간격 */
+}
+
+@media (max-width: 935px) {
+  .sidebar-container {
+    display: none;
+  }
+  
+  .feed-container {
+    margin: 0 auto;
+  }
+}
