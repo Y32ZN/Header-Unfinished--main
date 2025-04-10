@@ -8,14 +8,14 @@ const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [selectedSearch, setSelectedSearch] = useState('통합검색');
   const dropdownRef = useRef(null);
-//
+
   const searchOptions = [
     '가수/아티스트',
     '수록곡명',
     '제작사/레이블',
     '음반명/상품명'
   ];
-//주석을 추가
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
