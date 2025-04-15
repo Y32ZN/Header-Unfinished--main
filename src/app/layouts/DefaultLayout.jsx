@@ -13,11 +13,9 @@ const DefaultLayout=()=>{
           <li>
             <Link to="/">국내음반</Link>
             <ul className="subcategory-list">
-              <li><Link to="/">K-pop</Link></li>
-              <li><Link to="/">R&B</Link></li>
-              <li><Link to="/">HipHop</Link></li>
-              <li><Link to="/">Balad</Link></li>
-              <li><Link to="/">Idol</Link></li>
+              <li><Link to="/category/domestic/kpop">K-pop</Link></li>
+              <li><Link to="/category/domestic/">R&B</Link></li>
+              <li><Link to="/category/domestic/Balad">Balad</Link></li>
             </ul>
           </li>
           <li>
@@ -27,15 +25,12 @@ const DefaultLayout=()=>{
               <li><Link to="/">Pop</Link></li>
               <li><Link to="/">R&B</Link></li>
               <li><Link to="/">HipHop</Link></li>
-              <li><Link to="/">Balad</Link></li>
-              <li><Link to="/">Rock</Link></li>
+
             </ul>
           </li>
           <li>
             <Link to="/">Jazz</Link>
             <ul className="subcategory-list">
-              <li><Link to="/">Smooth Jazz</Link></li>
-              <li><Link to="/">Bebop</Link></li>
               <li><Link to="/">Fusion</Link></li>
               <li><Link to="/">Swing</Link></li>
               <li><Link to="/">Blues</Link></li>
@@ -44,7 +39,6 @@ const DefaultLayout=()=>{
           <li>
             <Link to="/">DVD/Blu-Ray</Link>
             <ul className="subcategory-list">
-              <li><Link to="/">Live</Link></li>
               <li><Link to="/">Concert</Link></li>
               <li><Link to="/">Tour</Link></li>
               <li><Link to="/">World Tour</Link></li>
